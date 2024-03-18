@@ -38,17 +38,7 @@ const Insight = () => {
 
       <div className="relative z-[20] mt-[10rem] left-[5rem]">
         <div className="text-[14px] text-left font-medium text-gray-400 my-[-2] max-w-[600px]">
-          As can be seen from the image on the left, there exists a fundamental difference in stars, 
-          quasars (qso) and galaxies. The difference being the size and the luminous intensity which
-          is the amount of light emitted by the object. Fundamentally speaking, stars are smaller 
-          than Galaxies. But Quasars, however, are smaller than galaxies but are the brightest object 
-          in the universe. So, as a result the light from the stars, get dimmer as they get farther and
-          at one point it becomes almost invisible. Galaxies being bigger than stars are visible for a 
-          far greater range but quasars are so bright that they can be seen even further away from the 
-          galaxies. This qunatity of seeing an object is shown in the redshift of the object. Stars 
-          being smaller and less luminous than galaxies or quasars have smaller redshift. While galaxies
-          and quasars have higher redshift with Quasar having the highest redshift. The feature importance
-          of the features are shown below
+        As depicted in the image, stars, quasars (QSOs), and galaxies exhibit inherent differences in size and luminous intensity, the latter being the quantity of light an object emits. Stars, although plentiful, are less luminous and become almost imperceptible at great distances. In contrast, galaxies, due to their substantial size, remain visible over larger distances. Quasars, despite being smaller than galaxies, are exceptionally luminous, making them detectable even further away. These differences are quantified by an object's redshift—the greater the redshift, the further away and more luminous the object is, with quasars exhibiting the highest redshifts. To accurately classify these celestial bodies, the model utilizes not just redshift data, but also alpha (right ascension) and delta (declination) coordinates, which provide a precise celestial location. Using XGBoost, the model enhances its classification accuracy by focusing on objects that are more challenging to classify. K-Means clustering further refines this process by organizing the objects into clusters based on the similarity of these features. Thus, the model not only classifies objects based on their light-emitting properties but also spatially groups them according to their positions in the celestial sphere, revealing the significant role these coordinates play in understanding the cosmos.
         </div>
       </div>
     </div>
