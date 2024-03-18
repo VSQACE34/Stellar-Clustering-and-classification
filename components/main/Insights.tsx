@@ -43,8 +43,8 @@ const Insight = () => {
         Stars, although plentiful, are less luminous and become almost imperceptible at great 
         distances. In contrast, galaxies, due to their substantial size, remain visible over larger
         distances. Quasars, despite being smaller than galaxies, are exceptionally luminous, making
-        them detectable even further away. These differences are quantified by an object's 
-        redshift—the greater the redshift, the further away and more luminous the object is, with 
+        them detectable even further away. These differences are quantified by an object&apos;s 
+        redshift.The greater the redshift, the further away and more luminous the object is, with 
         quasars exhibiting the highest redshifts. To accurately classify these celestial bodies, 
         the model utilizes not just redshift data, but also alpha (right ascension) and delta 
         (declination) coordinates, which provide a precise celestial location. Using XGBoost, 
