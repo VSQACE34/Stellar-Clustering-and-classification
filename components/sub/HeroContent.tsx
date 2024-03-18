@@ -40,9 +40,19 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-2 max-w-[600px]"
+          className="text-lg text-gray-400 my-[-2] max-w-[600px]"
         >
-          The project introduces a stellar classifier and clustering model that employs XGBoost and K-Means clustering to categorize stellar objects into three main categories: stars, quasars (QSOs), and galaxies, based on u, g, r, i, z photometric bands and redshift values sourced from the Sloan Digital Sky Survey (SDSS) database. This tool is designed to aid astronomers and astrophysicists in the identification and preliminary classification of these stellar objects. Given the model's reliance on specific data types, it is inherently limited in classifying objects that fall outside these parameters, such as planets or other celestial bodies not emitting in the observed bands or exhibiting different redshift characteristics. This limitation presents a valuable opportunity for further research, potentially expanding the model's classification capabilities or exploring new methods to incorporate a wider range of stellar phenomena
+         The project introduces a stellar classifier and clustering model that employs XGBoost 
+         and K-Means clustering to categorize stellar objects into three main categories: stars,
+         quasars (QSOs), and galaxies, based on u, g, r, i, z photometric bands and redshift 
+         values sourced from the Sloan Digital Sky Survey (SDSS) database. This tool is designed
+         to aid astronomers and astrophysicists in the identification and preliminary 
+         classification of these stellar objects. Given the model's reliance on specific data 
+         types, it is inherently limited in classifying objects that fall outside these parameters,
+         such as planets or other celestial bodies not emitting in the observed bands or exhibiting
+         different redshift characteristics. This limitation presents a valuable opportunity for 
+         further research, potentially expanding the model's classification capabilities or exploring
+         new methods to incorporate a wider range of stellar phenomena
         </motion.p>
 
       </div>

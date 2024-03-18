@@ -37,8 +37,23 @@ const Insight = () => {
       </div>
 
       <div className="relative z-[20] mt-[10rem] left-[5rem]">
-        <div className="text-[14px] text-left font-medium text-gray-400 my-[-2] max-w-[600px]">
-        As depicted in the image, stars, quasars (QSOs), and galaxies exhibit inherent differences in size and luminous intensity, the latter being the quantity of light an object emits. Stars, although plentiful, are less luminous and become almost imperceptible at great distances. In contrast, galaxies, due to their substantial size, remain visible over larger distances. Quasars, despite being smaller than galaxies, are exceptionally luminous, making them detectable even further away. These differences are quantified by an object's redshift—the greater the redshift, the further away and more luminous the object is, with quasars exhibiting the highest redshifts. To accurately classify these celestial bodies, the model utilizes not just redshift data, but also alpha (right ascension) and delta (declination) coordinates, which provide a precise celestial location. Using XGBoost, the model enhances its classification accuracy by focusing on objects that are more challenging to classify. K-Means clustering further refines this process by organizing the objects into clusters based on the similarity of these features. Thus, the model not only classifies objects based on their light-emitting properties but also spatially groups them according to their positions in the celestial sphere, revealing the significant role these coordinates play in understanding the cosmos.
+        <div className="text-[14px] text-left font-medium text-gray-400 my-[-4] max-w-[600px]">
+        As depicted in the image, stars, quasars (QSOs), and galaxies exhibit inherent differences 
+        in size and luminous intensity, the latter being the quantity of light an object emits. 
+        Stars, although plentiful, are less luminous and become almost imperceptible at great 
+        distances. In contrast, galaxies, due to their substantial size, remain visible over larger
+        distances. Quasars, despite being smaller than galaxies, are exceptionally luminous, making
+        them detectable even further away. These differences are quantified by an object's 
+        redshift—the greater the redshift, the further away and more luminous the object is, with 
+        quasars exhibiting the highest redshifts. To accurately classify these celestial bodies, 
+        the model utilizes not just redshift data, but also alpha (right ascension) and delta 
+        (declination) coordinates, which provide a precise celestial location. Using XGBoost, 
+        the model enhances its classification accuracy by focusing on objects that are more 
+        challenging to classify. K-Means clustering further refines this process by organizing the 
+        objects into clusters based on the similarity of these features. Thus, the model not only 
+        classifies objects based on their light-emitting properties but also spatially groups them 
+        according to their positions in the celestial sphere, revealing the significant role these 
+        coordinates play in understanding the cosmos.  
         </div>
       </div>
     </div>
