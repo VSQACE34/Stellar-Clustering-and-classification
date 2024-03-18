@@ -32,13 +32,23 @@ const Insight = () => {
           />
         </div>
         <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]">
-          <h1 className="Welcome-text text-[12px]">picture of stellar objects</h1>
+          <h1 className="Welcome-text text-[12px]">picture of stellar objects (from left:- star, galaxy, qso)</h1>
         </div>
       </div>
 
       <div className="relative z-[20] mt-[10rem] left-[5rem]">
-        <div className="text-[20px] text-left font-medium text-gray-300 ">
-          The whys and hows of the classification model are shown here:
+        <div className="text-[14px] text-left font-medium text-gray-400 my-[-2] max-w-[600px]">
+          As can be seen from the image on the left, there exists a fundamental difference in stars, 
+          quasars (qso) and galaxies. The difference being the size and the luminous intensity which
+          is the amount of light emitted by the object. Fundamentally speaking, stars are smaller 
+          than Galaxies. But Quasars, however, are smaller than galaxies but are the brightest object 
+          in the universe. So, as a result the light from the stars, get dimmer as they get farther and
+          at one point it becomes almost invisible. Galaxies being bigger than stars are visible for a 
+          far greater range but quasars are so bright that they can be seen even further away from the 
+          galaxies. This qunatity of seeing an object is shown in the redshift of the object. Stars 
+          being smaller and less luminous than galaxies or quasars have smaller redshift. While galaxies
+          and quasars have higher redshift with Quasar having the highest redshift. The feature importance
+          of the features are shown below
         </div>
       </div>
     </div>

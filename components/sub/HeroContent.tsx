@@ -42,7 +42,11 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Details of the classifier and clusterer
+          The following project is an implementation of a stellar classifier and clustering 
+          model using XGBoost and K means clustering which would classify stellar objects into
+          3 categories namely stars, quasars (qso) and galaxies. This model was trained using real
+          data obtained from the SDSS (Sloan Digital Sky Survey) database and can be useful in 
+          the research and classification of unknown stellar object which this model cannot classify
         </motion.p>
 
       </div>
